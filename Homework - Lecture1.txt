@@ -1,0 +1,58 @@
+https://www.abv.bg
+link=Месечен
+
+xpath selectors
+//article[@id="astroContent"]/h3/a
+//article[@id="astroContent"]//a[@class='fr']
+//article[@id="astroContent"]//a[contains(@href,'mesechen')]
+
+CSS selectors
+article#astroContent a[href*='mesechen']
+
+
+
+https://zamunda.net
+id=foruicon
+
+xpath selectors
+//table//a[@href='/login.php']
+//a[@href='/login.php']
+//table[contains(@class,'navmain')]//td[4]//a
+
+CSS selector
+#foruicon
+a[href*='/login.php']
+
+
+https://www.vesti.bg/
+id=searchSubmit
+
+xpath selectors
+//div//input[@id="searchSubmit"]
+//input[@id="searchSubmit"]
+//div//input[@class="searchTopButton gtm-HeaderSearch-click"]
+//input[@class="searchTopButton gtm-HeaderSearch-click"]
+
+CSS selectors
+#searchSubmit
+input[id='searchSubmit']
+input#searchSubmit
+input.searchTopButton
+
+
+https://www.siteground.com
+xpath selector
+//article[@id="owl-cards"]//div[3]//div/a
+//div[contains(@class,'woo')]//a[contains(@class,'btn--bg-orange')]
+//a[@href='/woocommerce-hosting.htm']
+
+CSS selector
+#owl-cards div:nth-child(3) div:nth-child(3) > a
+div.woo a.btn--bg-orange
+a[href='/woocommerce-hosting.htm'].btn
+
+
+
+
+
+
